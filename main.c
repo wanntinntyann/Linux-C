@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main(int argc, char *argv[])
 {
-  printf("argc=%d\n", argc);
+  cout<< "argc=" << argc <<endl;
 
-  int i;
-  for(i = 0; i < argc; i++){ 
+  for(int i = 0; i < argc; i++){ 
 	printf("argv[%d]=%s\n", i, argv[i]);
   }
 
